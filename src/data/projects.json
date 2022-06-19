@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "repo": "https://github.com/daniellenasc/tic-tac-toe",
+    "deploy": "https://daniellenasc.github.io/tic-tac-toe/",
+    "title": "Tic Tac Toe",
+    "description": "The classic game built with vanilla JavaScript."
+  },
+  {
+    "id": 2,
+    "repo": "https://github.com/daniellenasc/projeto-livraria-fabula",
+    "deploy": "https://livrariafabula.netlify.app/",
+    "title": "Fábula Bookstore",
+    "description": "A bookstore especialized in classic books."
+  },
+
+  {
+    "id": 3,
+    "repo": "https://github.com/daniellenasc/where-to-project-client",
+    "deploy": "https://where-to-project.netlify.app/",
+    "title": "Where To?  (client side)",
+    "description": "A travel app for renting diferent types of stays."
+  },
+
+  {
+    "id": 4,
+    "repo": "https://github.com/CPBeisiegel/where-to-project",
+    "title": "Where To?  (server side)",
+    "description": "The backend created for the 'Where To?' app."
+  },
+
+  {
+    "id": 5,
+    "repo": "https://github.com/daniellenasc/react-pokedex",
+    "title": "Pokedex",
+    "description": "An app made with React JS, consuming the PokeAPI."
+  },
+
+  {
+    "id": 6,
+    "repo": "https://github.com/daniellenasc/landing-page",
+    "deploy": "https://d-nascimento-landing-page.netlify.app/",
+    "title": "Landing page",
+    "description": "A landing page created with HTML5 and CSS3."
+  },
+
+  {
+    "id": 7,
+    "repo": "https://github.com/daniellenasc/landing-page",
+    "title": "Portfolio",
+    "description": "My personal portfolio built with ReactJS."
+  }
+]

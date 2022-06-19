@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "title": "Bachelor Degree, Law",
+    "school": "Santa Cecília University - Brazil",
+    "issued": "Jan 2007 - Dec 2011",
+    "description": "9-week intensive Web Development Bootcamp. Front-end technologies learned: HTML5, CSS3, JavaScript (ES6), React. Back-end technologies learned: ExpressJs, NodeJs,MongoDB, Axios. Version Control: Git, GitHub"
+  },
+  {
+    "id": 2,
+    "title": "Web Development Bootcamp FT January 2022",
+    "school": "Ironhack",
+    "issued": "Jan - March 2022",
+    "link": "https://www.credential.net/8e3b802b-350b-4e9a-a1a2-98f9510aa550#gs.33pqax",
+    "description": "9-week intensive Web Development Bootcamp. Front-end technologies learned: HTML5, CSS3, JavaScript (ES6), React. Back-end technologies learned: ExpressJs, NodeJs,MongoDB, Axios. Version Control: Git, GitHub"
+  },
+
+  {
+    "id": 3,
+    "title": "Learn JavaScript Course",
+    "school": "Codecademy",
+    "issued": "April 2022",
+    "link": "https://www.codecademy.com/profiles/daniellenasc/certificates/705dcb15de0da4dd9d9fc4f3274b430e"
+  },
+
+  {
+    "id": 4,
+    "title": "Learn TypeScript Course",
+    "school": "Codecademy",
+    "issued": "May 2022",
+    "link": "https://www.codecademy.com/profiles/daniellenasc/certificates/56fb1e71303e37b643bb1905f31c8a09"
+  }
+]

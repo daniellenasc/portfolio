@@ -1,0 +1,63 @@
+.main-bg {
+  min-height: 100vh;
+  background-image: url("../../assets/Images/bg.svg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.home-main-content {
+  max-width: 75rem;
+  min-height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 1.5rem;
+  background: none;
+  margin: 0 auto;
+}
+
+.home-text,
+.home-img {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  background: none;
+  margin: 0 1.25rem;
+}
+
+.home-text h1 {
+  margin-bottom: 3rem;
+  background: none;
+}
+
+.home-text p {
+  line-height: 1.5;
+  background: none;
+}
+
+.home-img img {
+  max-width: 100%;
+  height: auto;
+  background: none;
+}
+
+@media (max-width: 767.98px) {
+  .home-main-content {
+    max-width: 75rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: none;
+    margin: 3rem auto;
+  }
+
+  .home-text h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .home-text p {
+    text-align: center;
+    line-height: 1.5;
+  }
+}

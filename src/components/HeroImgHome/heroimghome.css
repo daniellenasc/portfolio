@@ -1,0 +1,35 @@
+figcaption {
+  position: absolute;
+  top: 2rem;
+  margin: 0 2rem;
+  background: none;
+  font-size: 1.5em;
+}
+
+.figure-img {
+  opacity: 0.5;
+}
+
+p {
+  background: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  background: none;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  figcaption {
+    position: inherit;
+    bottom: inherit;
+    margin: 0.25rem 0px;
+    font-size: inherit;
+    color: inherit;
+  }
+  .figure-img {
+    opacity: inherit;
+  }
+}
