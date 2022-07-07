@@ -1,8 +1,8 @@
 import { Container } from "react-bootstrap";
+import Fade from "react-reveal";
 import { CardProjects } from "../../components/CardProjects/cardProjects";
 import projects from "../../data/projects.json";
 import "./Projects.css";
-import Fade from "react-reveal";
 
 export function Projects() {
   return (

@@ -1,8 +1,8 @@
+import { Container } from "react-bootstrap";
+import Fade from "react-reveal";
 import { CardCertifications } from "../../components/CardCertifications/CardCertification";
 import certifications from "../../data/certifications.json";
 import "./Certifications.css";
-import { Container } from "react-bootstrap";
-import Fade from "react-reveal";
 
 export function Certifications() {
   return (

@@ -1,7 +1,7 @@
-import "./Home.css";
+import { Container } from "react-bootstrap";
 import Fade from "react-reveal";
 import Dev from "../../assets/Images/undraw-dev-focus-full.svg";
-import Container from "react-bootstrap/esm/Container";
+import "./Home.css";
 
 export function Home() {
   return (

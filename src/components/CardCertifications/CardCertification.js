@@ -1,5 +1,6 @@
 import { Card } from "react-bootstrap";
 import "./CardCertifications.css";
+
 export function CardCertifications(props) {
   return (
     <Card className="text-center card-certification">

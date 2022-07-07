@@ -1,7 +1,7 @@
-import "./Contact.css";
+import { Container } from "react-bootstrap";
 import Fade from "react-reveal/Fade";
 import ContactImg from "../../assets/Images/contact-img-02.svg";
-import Container from "react-bootstrap/esm/Container";
+import "./Contact.css";
 
 export function Contact() {
   return (
