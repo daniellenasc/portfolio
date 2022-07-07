@@ -70,7 +70,7 @@ export function About() {
             <p>
               'Dani learns very quickly, has independent problem solving
               abilities, demonstrates natural curiosity, and has high quality
-              standards for herself as well as others.'
+              standards for herself.'
             </p>
           </section>
           <section>
