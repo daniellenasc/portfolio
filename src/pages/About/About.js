@@ -7,7 +7,7 @@ export function About() {
     <Container>
       <div className="about-main-content">
         <div className="about-header">
-          <h2>About</h2>
+          <h2>about</h2>
         </div>
 
         <div className="about-container">

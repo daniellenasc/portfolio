@@ -9,7 +9,7 @@ export function Projects() {
     <Container>
       <div className="projects-main-content">
         <div className="projects-header">
-          <h2>Projects</h2>
+          <h2>projects</h2>
         </div>
         <div className="projects-container">
           {projects.map((project) => {

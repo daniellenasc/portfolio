@@ -9,7 +9,7 @@ export function Certifications() {
     <Container>
       <div className="certifications-main-content">
         <div className="certifications-header">
-          <h2>Certifications</h2>
+          <h2>certifications</h2>
         </div>
         <div className="certifications-container">
           {certifications.map((certification) => {
