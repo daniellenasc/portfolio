@@ -43,6 +43,7 @@
 
 @media (max-width: 767.98px) {
   .main-bg {
+    min-height: 100vh;
     background-image: none;
   }
 
@@ -52,7 +53,7 @@
     display: flex;
     flex-direction: column;
     background: none;
-    margin: 3rem auto;
+    margin: 3rem auto auto 0;
   }
 
   .home-text h1 {
