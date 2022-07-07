@@ -46,7 +46,7 @@ export function Contact() {
           </div>
         </div>
         <div className="contact-img">
-          <Fade right>
+          <Fade>
             <img src={ContactImg} alt="contact-img" />
           </Fade>
         </div>
