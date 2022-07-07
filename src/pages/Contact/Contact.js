@@ -1,4 +1,5 @@
 import "./Contact.css";
+import Fade from "react-reveal/Fade";
 import ContactImg from "../../assets/Images/contact-img-02.svg";
 import Container from "react-bootstrap/esm/Container";
 
@@ -45,7 +46,9 @@ export function Contact() {
           </div>
         </div>
         <div className="contact-img">
-          <img src={ContactImg} alt="contact-img" />
+          <Fade right>
+            <img src={ContactImg} alt="contact-img" />
+          </Fade>
         </div>
       </div>
     </Container>

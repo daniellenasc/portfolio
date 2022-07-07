@@ -12,10 +12,10 @@ export function About() {
 
         <div className="about-container">
           <section className="about-text">
-            <h3>
+            <p>
               Web Developer with 'fantastic enthusiasm and a natural eye for all
               things digital'.
-            </h3>
+            </p>
             <p>
               Portuguese born in Brazil currently living in France, I am
               passionate about finding simple solutions to difficult problems. I

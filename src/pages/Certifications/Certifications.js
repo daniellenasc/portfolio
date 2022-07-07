@@ -2,6 +2,7 @@ import { CardCertifications } from "../../components/CardCertifications/CardCert
 import certifications from "../../data/certifications.json";
 import "./Certifications.css";
 import { Container } from "react-bootstrap";
+import Fade from "react-reveal";
 
 export function Certifications() {
   return (
@@ -13,13 +14,15 @@ export function Certifications() {
         <div className="certifications-container">
           {certifications.map((certification) => {
             return (
-              <CardCertifications
-                key={certification.id}
-                title={certification.title}
-                link={certification.link}
-                school={certification.school}
-                issued={certification.issued}
-              />
+              <Fade>
+                <CardCertifications
+                  key={certification.id}
+                  title={certification.title}
+                  link={certification.link}
+                  school={certification.school}
+                  issued={certification.issued}
+                />
+              </Fade>
             );
           })}
         </div>
