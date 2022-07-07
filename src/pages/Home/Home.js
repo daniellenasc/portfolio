@@ -18,7 +18,7 @@ export function Home() {
           </div>
           <div className="home-img">
             <Fade>
-              <img src={Dev} alt="developer"></img>
+              <img src={Dev} alt="developer" />
             </Fade>
           </div>
         </div>
