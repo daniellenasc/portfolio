@@ -17,7 +17,7 @@ export function Home() {
             <p>Here you can find a little bit more about me and my work.</p>
           </div>
           <div className="home-img">
-            <Fade right>
+            <Fade>
               <img src={Dev} alt="developer" />
             </Fade>
           </div>
