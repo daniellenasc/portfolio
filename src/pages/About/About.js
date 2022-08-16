@@ -1,6 +1,5 @@
 import { Container } from "react-bootstrap";
 
-import Fade from "react-reveal";
 import profile from "../../assets/Images/profile.jpg";
 import "./About.css";
 
@@ -75,9 +74,7 @@ export function About() {
             </p>
           </section>
           <section>
-            <Fade>
-              <img className="about-image" src={profile} alt="Me" />
-            </Fade>
+            <img className="about-image" src={profile} alt="Me" />
           </section>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import Fade from "react-reveal";
+
 import Dev from "../../assets/Images/undraw-dev-focus-full.svg";
 import "./Home.css";
 
@@ -17,9 +17,7 @@ export function Home() {
             <p>Here you can find a little bit more about me and my work.</p>
           </div>
           <div className="home-img">
-            <Fade>
-              <img src={Dev} alt="developer" />
-            </Fade>
+            <img src={Dev} alt="developer" />
           </div>
         </div>
       </div>

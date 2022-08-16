@@ -1,5 +1,4 @@
 import { Container } from "react-bootstrap";
-import Fade from "react-reveal";
 import { CardProjects } from "../../components/CardProjects/cardProjects";
 import projects from "../../data/projects.json";
 import "./Projects.css";
@@ -14,15 +13,13 @@ export function Projects() {
         <div className="projects-container">
           {projects.map((project) => {
             return (
-              <Fade>
-                <CardProjects
-                  key={project.id}
-                  title={project.title}
-                  description={project.description}
-                  repo={project.repo}
-                  deploy={project.deploy}
-                />
-              </Fade>
+              <CardProjects
+                key={project.id}
+                title={project.title}
+                description={project.description}
+                repo={project.repo}
+                deploy={project.deploy}
+              />
             );
           })}
         </div>
