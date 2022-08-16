@@ -1,4 +1,5 @@
 import { Container } from "react-bootstrap";
+
 import Fade from "react-reveal";
 import profile from "../../assets/Images/profile.jpg";
 import "./About.css";

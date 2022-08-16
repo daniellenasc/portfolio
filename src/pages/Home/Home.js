@@ -9,7 +9,7 @@ export function Home() {
       <div className="main-bg">
         <div className="home-main-content">
           <div className="home-text">
-            <h1>Hi, I'm Danielle Nascimento!</h1>
+            <h1>Hello, I'm Danielle Nascimento!</h1>
             <p>
               Web Developer passionate about simple solutions to difficult
               problems.
