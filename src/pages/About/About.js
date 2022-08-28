@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-
+import Typewriter from 'typewriter-effect';
 import profile from "../../assets/Images/profile.jpg";
 import "./About.css";
 
@@ -8,7 +8,15 @@ export function About() {
     <Container>
       <div className="about-main-content">
         <div className="about-header">
-          <h2>about</h2>
+          <h2>
+          <Typewriter
+            options={{
+              strings: ['about'],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+          </h2>
         </div>
 
         <div className="about-container">

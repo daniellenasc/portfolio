@@ -1,4 +1,5 @@
 import { Container } from "react-bootstrap";
+import Typewriter from 'typewriter-effect';
 import { CardProjects } from "../../components/CardProjects/cardProjects";
 import projects from "../../data/projects.json";
 import "./Projects.css";
@@ -8,7 +9,15 @@ export function Projects() {
     <Container>
       <div className="projects-main-content">
         <div className="projects-header">
-          <h2>projects</h2>
+        <h2>
+          <Typewriter
+            options={{
+              strings: ['projects'],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+          </h2>
         </div>
         <div className="projects-container">
           {projects.map((project) => {

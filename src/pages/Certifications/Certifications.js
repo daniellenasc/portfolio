@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-
+import Typewriter from 'typewriter-effect';
 import { CardCertifications } from "../../components/CardCertifications/CardCertification";
 import certifications from "../../data/certifications.json";
 import "./Certifications.css";
@@ -9,7 +9,15 @@ export function Certifications() {
     <Container>
       <div className="certifications-main-content">
         <div className="certifications-header">
-          <h2>certifications</h2>
+        <h2>
+          <Typewriter
+            options={{
+              strings: ['certifications'],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+          </h2>
         </div>
         <div className="certifications-container">
           {certifications.map((certification) => {
