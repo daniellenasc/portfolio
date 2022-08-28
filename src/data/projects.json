@@ -49,5 +49,12 @@
     "repo": "https://github.com/daniellenasc/portfolio",
     "title": "Portfolio",
     "description": "My personal portfolio built with ReactJS."
+  },
+  {
+    "id": 8,
+    "repo": "https://github.com/daniellenasc/contactum",
+    "title": "Contactum",
+    "description": "An MVC app for saving your contacts."
   }
+  
 ]
