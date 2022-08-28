@@ -46,7 +46,7 @@ export function Contact() {
           </div>
         </div>
         <div className="contact-img">
-          <img src={ContactImg} alt="contact-img" />
+          <img src={ContactImg} alt="contact-img" />      
         </div>
       </div>
     </Container>

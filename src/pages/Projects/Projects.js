@@ -1,8 +1,10 @@
 import { Container } from "react-bootstrap";
 import Typewriter from 'typewriter-effect';
+
 import { CardProjects } from "../../components/CardProjects/cardProjects";
 import projects from "../../data/projects.json";
 import "./Projects.css";
+
 
 export function Projects() {
   return (
@@ -22,6 +24,7 @@ export function Projects() {
         <div className="projects-container">
           {projects.map((project) => {
             return (
+          
               <CardProjects
                 key={project.id}
                 title={project.title}
@@ -29,6 +32,7 @@ export function Projects() {
                 repo={project.repo}
                 deploy={project.deploy}
               />
+           
             );
           })}
         </div>

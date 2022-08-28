@@ -16,9 +16,11 @@ export function Home() {
             </p>
             <p>Here you can find a little bit more about me and my work.</p>
           </div>
-          <div className="home-img">
-            <img src={Dev} alt="developer" />
+          
+          <div className="home-img">              
+            <img src={Dev} alt="developer" />          
           </div>
+      
         </div>
       </div>
     </Container>
