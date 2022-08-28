@@ -29,11 +29,16 @@
   justify-content: center;
 }
 
-.contact-button-container button {
+.contact-button-container button { 
   width: 5rem;
   height: 5rem;
   border: none;
   margin: 1.2rem;
+  transition: transform 450ms;
+}
+
+.contact-button-container button:hover {
+  transform: scale(1.15);
 }
 
 .contact-button-container button a {
@@ -41,12 +46,14 @@
   text-decoration: none;
   color: rgba(0, 0, 0);
   margin: none;
-  border: none;
+  border: none; 
+ 
 }
 
 .contact-button-container button a:hover {
   color: var(--secondary-color);
   transition: 300ms ease-in-out;
+  
 }
 
 .contact-img img {
