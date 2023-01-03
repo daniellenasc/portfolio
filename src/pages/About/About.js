@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import Typewriter from 'typewriter-effect';
+import Typewriter from "typewriter-effect";
 import profile from "../../assets/Images/profile.jpg";
 import "./About.css";
 
@@ -9,13 +9,13 @@ export function About() {
       <div className="about-main-content">
         <div className="about-header">
           <h2>
-          <Typewriter
-            options={{
-              strings: ['about'],
-              autoStart: true,
-              loop: true,
-            }}
-          />
+            <Typewriter
+              options={{
+                strings: ["about"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </h2>
         </div>
 
@@ -66,6 +66,10 @@ export function About() {
                 Udemy
               </a>{" "}
               .
+            </p>
+            <p>
+              I currently work as a freelance web developer and as a full time
+              bootcamp assistant teacher at Ironhack.
             </p>
             <p>
               <b>
