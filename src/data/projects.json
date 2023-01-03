@@ -16,6 +16,21 @@
 
   {
     "id": 3,
+    "repo": "https://github.com/daniellenasc/week7-client/tree/danielle",
+    "deploy": "https://iron-tasks.netlify.app/",
+    "title": "IronTasks (client side)",
+    "description": "An application to manage your tasks."
+  },
+
+  {
+    "id": 4,
+    "repo": "https://github.com/daniellenasc/week7-day1",
+    "title": "IronTasks (server side)",
+    "description": "The backend created for the 'IronTasks' app."
+  },
+
+  {
+    "id": 5,
     "repo": "https://github.com/daniellenasc/where-to-project-client",
     "deploy": "https://where-to-project.netlify.app/",
     "title": "Where To?  (client side)",
@@ -23,21 +38,21 @@
   },
 
   {
-    "id": 4,
+    "id": 6,
     "repo": "https://github.com/CPBeisiegel/where-to-project",
     "title": "Where To?  (server side)",
     "description": "The backend created for the 'Where To?' app."
   },
 
   {
-    "id": 5,
+    "id": 7,
     "repo": "https://github.com/daniellenasc/react-pokedex",
     "title": "Pokedex",
     "description": "An app made with React JS, consuming the PokeAPI."
   },
 
   {
-    "id": 6,
+    "id": 8,
     "repo": "https://github.com/daniellenasc/landing-page",
     "deploy": "https://d-nascimento-landing-page.netlify.app/",
     "title": "Landing page",
@@ -45,16 +60,15 @@
   },
 
   {
-    "id": 7,
+    "id": 9,
     "repo": "https://github.com/daniellenasc/portfolio",
     "title": "Portfolio",
     "description": "My personal portfolio built with ReactJS."
   },
   {
-    "id": 8,
+    "id": 10,
     "repo": "https://github.com/daniellenasc/contactum",
     "title": "Contactum",
     "description": "An MVC app for saving your contacts."
   }
-  
 ]
